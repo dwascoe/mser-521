@@ -18,7 +18,7 @@
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='SuperstoreDataAnalysis_17591119466230' path='/workbooks' revision='1.0' />
+  <repository-location id='SuperstoreDataAnalysis_17591119466230' path='/workbooks' revision='1.1' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -1460,8 +1460,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98400' id='23' param='vert' type-v2='layout-flow' w='98934' x='533' y='800'>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98400' id='29' param='vert' type-v2='layout-flow' w='98934' x='533' y='800'>
                 <zone h='5800' id='17' type-v2='title' w='98934' x='533' y='800'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1737,7 +1737,7 @@
         </viewpoint>
         <viewpoint name='Total Returns by Region in 2015' />
       </viewpoints>
-      <active id='18' />
+      <active id='-1' />
       <simple-id uuid='{BB7CFDD8-E6D3-40F9-93A7-70775FD7EEB4}' />
     </window>
   </windows>
