@@ -47,20 +47,34 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px black;
+    padding: 10px;
+    border: 1px solid black;
 }
 
-/* .home {
+/* nav {
     border: 1px black;
 } */
 
 ul {
     list-style-type: none;
     display: flex;
-    border: 1px black;
+    padding: 10px;
+    border: 1px solid black;
+    color: inherit;
+    color: grey;
 }
 
 li {
     margin-left: 20px;
-    border: 1px black;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: inherit;
+    color: grey;
+}
+
+h1 {
+    border: 1px solid black;
+    color: inherit;
+    color: grey;
 }

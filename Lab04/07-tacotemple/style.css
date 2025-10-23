@@ -2,8 +2,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
