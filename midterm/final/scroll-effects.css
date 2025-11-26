@@ -76,6 +76,16 @@
   transform: scale(1);
 }
 
+[data-scroll='rotate-left'] {
+  opacity: 0;
+  transform: rotate(10deg);
+}
+
+[data-scroll='rotate-left'].scroll-in {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
 /* Stagger delay utilities */
 [data-scroll-delay='100'] {
   transition-delay: 0.1s;
